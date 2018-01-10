@@ -1,0 +1,31 @@
+<head>
+  <meta charset="utf-8">
+  <title>Lazy Loading Images</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="dist/main.css">
+</head>
+
+<body>
+  <div class="image-container">
+    <img class="visible-image" data-src="assets/books.jpg" src="assets/books.jpg" />
+  </div>
+  <div class="image-container">
+    <img class="hidden-image" data-src="assets/city.jpg" src="" />
+  </div>
+  <div class="image-container">
+    <img class="hidden-image" data-src="assets/coffee.jpg" />
+  </div>
+  <div class="image-container">
+    <img class="hidden-image" data-src="assets/cupcake.jpg" />
+  </div>
+  <div class="image-container">
+    <img class="hidden-image" data-src="assets/forest.jpg" />
+  </div>
+  <div class="image-container">
+    <img class="hidden-image" data-src="assets/moon.jpg" />
+  </div>
+  <script src="dist/index.js"></script>
+</body>
+
+</html>
